@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CounterSign - Privacy Policy</title>
+  <style>
+    body { font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; color: #1d2125; background: #fff; }
+    h1 { font-size: 1.8rem; } h2 { font-size: 1.2rem; margin-top: 2rem; }
+    a { color: #0c66e4; } code { background: #f1f2f4; padding: 0 .25em; border-radius: 3px; }
+    @media (prefers-color-scheme: dark) { body { background: #161a1d; color: #c7d1db; } code { background: #22272b; } a { color: #579dff; } }
+  </style>
+</head>
+<body>
+  <h1>CounterSign - Privacy Policy</h1>
+  <p><em>Last updated: 24 November 2026</em></p>
+
+  <p>CounterSign is an Atlassian Forge app that checks Confluence pages for possible problems in food-supplement marketing copy and helps create Jira tickets for the corrections. It is written by an individual developer. This policy explains, in plain words, what the app does with data.</p>
+
+  <h2>1. Where the app runs</h2>
+  <p>CounterSign runs entirely on Atlassian's Forge platform. It has <strong>no servers of its own</strong> and <strong>sends no data to any external service</strong>: it makes no calls to outside networks (no external egress is declared in the app). The developer does not receive, copy or have access to your site's content or to the data the app stores.</p>
+
+  <h2>2. What the app reads</h2>
+  <p>When a user runs a check, the app reads, <em>as that user</em> and within that user's permissions:</p>
+  <ul>
+    <li>the content and title of the Confluence page being checked (or the pages of a space, when a space scan is started);</li>
+    <li>the list of Jira projects the user can see, and it creates a Jira issue when the user asks it to;</li>
+    <li>read-only context from Atlassian's Teamwork Graph: the names of the people who created, own or contributed to the page, and the titles of pages it links to. Only names are used, no e-mail addresses.</li>
+  </ul>
+  <p>The page text is analysed in memory by fixed rules (no artificial intelligence or language model is called) and is not stored by the app.</p>
+
+  <h2>3. What the app stores</h2>
+  <p>The app stores data only in <strong>Forge storage</strong>, which is hosted by Atlassian inside your Atlassian site's environment:</p>
+  <ul>
+    <li><strong>App settings:</strong> the language choice, extra forbidden words and brand names that an administrator enters.</li>
+    <li><strong>Scan history for a space</strong> (only after a space scan): for each issue found, the page ID and title, the rule that matched, its severity, a short matched snippet (up to about 60 characters), the dates it was first and last seen, whether it is open or fixed, and the keys of Jira tickets created for the page.</li>
+  </ul>
+  <p>The app does not intentionally store personal data. Page titles and short snippets come from your own content, so if your pages contain personal data, those short pieces can end up in the scan history; they stay in Forge storage on Atlassian. Names from Teamwork Graph are not stored by the app; they are shown to the user and, if a ticket is created, written into that Jira ticket, which is your own Jira data.</p>
+
+  <h2>4. What the app does not do</h2>
+  <ul>
+    <li>It does not sell, share or transfer your data to third parties.</li>
+    <li>It does not use analytics, advertising or tracking.</li>
+    <li>It does not store data outside Atlassian.</li>
+    <li>It does not write to Teamwork Graph.</li>
+  </ul>
+
+  <h2>5. Rovo and MCP</h2>
+  <p>CounterSign provides tools that Rovo agents or an MCP client can call. When someone uses those tools, the request and result are handled by Atlassian's Rovo or MCP services under Atlassian's own terms and privacy policy, and by the tool you connect. CounterSign only returns the result of its checks to the caller.</p>
+
+  <h2>6. Retention and deletion</h2>
+  <p>Stored settings and scan history stay in your site's Forge storage until the app is uninstalled or the data is removed. When the app is uninstalled, its stored data is handled according to Atlassian's Forge data-retention rules. You can also contact the developer (below) with any question about this data. Jira tickets and Confluence pages are your own site data and are managed in Atlassian.</p>
+
+  <h2>7. Permissions the app asks for</h2>
+  <p>The app asks only for the permissions it needs: read and write Confluence pages and read spaces (to check pages and demo pages), read and write Jira work (to create tickets), app storage (settings and scan history), and read access to Teamwork Graph (page context).</p>
+
+  <h2>8. Important notice about the content of the checks</h2>
+  <p>CounterSign's rules are drafts based on EU rules for food supplements. The app is a writing aid and is <strong>not legal advice</strong>.</p>
+
+  <h2>9. Changes</h2>
+  <p>If the app starts to handle data differently, this page will be updated and the date above changed.</p>
+
+  <h2>10. Contact</h2>
+  <p>Questions or requests: <a href="mailto:maziluileana88@gmail.com">maziluileana88@gmail.com</a></p>
+</body>
+</html>
